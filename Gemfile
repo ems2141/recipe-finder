@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.1.6'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.3'
@@ -13,8 +12,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'haml-rails', '~> 0.9.0'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 3.2.3'
   gem 'capybara', '~> 2.4.4'
+  gem 'dotenv', '~> 2.0.1'
 end
 
 # Use ActiveModel has_secure_password
